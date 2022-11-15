@@ -49,10 +49,10 @@ TODO
 
 This application was authored by:
 
-- Leo Khodel (lkhodel@gmail.com)
+- Leo Khodel 
 - Kristen Potter
 - Quinn Wong (quinn.wong@gmail.com)
-- Sterling Davis (sterlingdayvis@gmail.com)
+- Sterling Davis 
 
 ---
 
