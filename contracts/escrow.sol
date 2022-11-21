@@ -2,19 +2,19 @@ pragma solidity ^0.5.0;
 contract Escrow { 
 
     // buyer's address
-    // TODO
+    address public buyer
 
     // seller's address
-    // TODO
+    address public payable seller
 
     // agent's address
-    // TODO
+    address public agent
 
     // propertyId
-    // TODO
+    uint public propertyId
 
     // price 
-    // TODO
+    uint public price
 
     // Constructor
     function Escrow() public { 
@@ -24,7 +24,12 @@ contract Escrow {
     // Implement setters and getters
 
     // Implement deposit
+    function deposit(address payee) public payable { 
+       // uint256 amount = msg.value
+    }
 
     // Implement withdraw
-
+    function withdraw() public { 
+        
+    }
 }
