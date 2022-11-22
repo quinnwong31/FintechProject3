@@ -1,35 +1,33 @@
-pragma solidity ^0.5.0;
+pragma solidity 0.8.17;
+
+/* Escrow contract
+
+This contract implements an escrow account for holding funds until
+a transfer has been confirmed. It defines the buyer and seller accounts
+and allows the buyer to confirm receipt, releasing the deposit.
+*/
+
 contract Escrow { 
+    address payable buyer;
+    address payable seller;
 
-    // buyer's address
-    address public buyer;
+    uint            amount;
+    bool    public  payed = false;
 
-    // seller's address
-    address public payable seller;
-
-    // agent's address
-    address public agent;
-
-    // propertyId
-    uint public propertyId;
-
-    // price 
-    uint public price;
-
-    // Constructor
-    function Escrow() public { 
-        // TODO
+    constructor (address payable _buyer, address payable _seller, uint _amount) { 
+        buyer = _buyer;
+        seller = _seller;
+        amount = _amount;
     }
 
-    // Implement setters and getters
-
-    // Implement deposit
-    function deposit(address payee) public payable { 
-       // uint256 amount = msg.value
+    function confirm_receipt() public {
+        if (msg.sender == buyer)
+            seller.transfer(amount);
     }
 
-    // Implement withdraw
-    function withdraw() public { 
-        
+    function deposit() payable public {
+        if (msg.sender == buyer && msg.value == amount)
+            payed = true;
     }
+
 }
