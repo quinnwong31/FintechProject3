@@ -2,19 +2,19 @@ pragma solidity ^0.5.0;
 contract Escrow { 
 
     // buyer's address
-    address public buyer
+    address public buyer;
 
     // seller's address
-    address public payable seller
+    address public payable seller;
 
     // agent's address
-    address public agent
+    address public agent;
 
     // propertyId
-    uint public propertyId
+    uint public propertyId;
 
     // price 
-    uint public price
+    uint public price;
 
     // Constructor
     function Escrow() public { 
