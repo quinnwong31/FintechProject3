@@ -25,8 +25,7 @@ Ethereum, Remix, Ganache, Solidity and MetaMask
 
 ### Additional Technologies
 
-Streamlit
-Python
+Streamlit and Python
 
 ---
 
