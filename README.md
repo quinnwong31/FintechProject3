@@ -48,14 +48,14 @@ To run the code, perform the following steps:
 NOTE: Prior to running program ensure you have installed the required dependancies listed above.
 
 1. Open Ganache
-  a. Select "Quickstart Ethereum"
+  1. Select "Quickstart Ethereum"
 2. Open Gitbash
-  a. Navigate to Project Folder
+  1. Navigate to Project Folder
 4. Execute `streamlit run app.py`
-  a. Enter Buyer Address
-  b. Enter Seller Address
-  d. Enter Property ID
-  e. Enter Price (in ETH)
+  1. Enter Buyer Address
+  2. Enter Seller Address
+  3. Enter Property ID
+  4. Enter Price (in ETH)
 5. Click "Create Contract"
 6. Click "Deposit Funds"
 7. Click "Confirm Receipt"
