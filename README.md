@@ -1,5 +1,4 @@
 # FintechProject3
-# Trading_Bot_9000
 
 ## Problem Statement
 
