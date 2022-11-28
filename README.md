@@ -3,13 +3,17 @@
 
 ## Problem Statement
 
-TODO
+- The current real estate contractual process is costly and time consuming. 
+- It is difficult to validate integral documents related to the sale of a home. 
+- Can be risky and expensive due to the limitations of human processing. 
+- A home buyer may not recieve the complete product that was initially discussed.
+- Qualification for loans takes too much time.
 
 ---
 
 ## Solution Overview
 
-TODO
+Block chain aims to streamline home sale processes, facilitating property transfers between owners and buyers without the need for a third party. This reduces costs and speeds up the time consuming process of property transfers and real estate investment. This would allow users to hold application information on the chain, securely and efficiently. Which would be verified by asset holders to ensure integrity. In addition, asset holders can easily be identified for banks and other lenders to allow efficient loan processing.
 
 ---
 
@@ -17,11 +21,12 @@ TODO
 
 ### Blockchain Technologies
 
-TODO
+Ethereum, Remix, Ganache, Solidity and MetaMask
 
-### Python Technologies
+### Additional Technologies
 
-TODO
+Streamlit
+Python
 
 ---
 
@@ -50,7 +55,7 @@ TODO
 This application was authored by:
 
 - Leo Khodel 
-- Kristen Potter
+- Kristen Potter (kristendmr@msn.com)
 - Quinn Wong (quinn.wong@gmail.com)
 - Sterling Davis 
 
