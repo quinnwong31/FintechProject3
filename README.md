@@ -57,7 +57,6 @@ NOTE: Prior to running program ensure you have installed the required dependanci
     4. Enter Price (in ETH)
 5. Click "Create Contract"
 6. Click "Deposit Funds"
-7. Click "Confirm Receipt"
 
 ---
 
